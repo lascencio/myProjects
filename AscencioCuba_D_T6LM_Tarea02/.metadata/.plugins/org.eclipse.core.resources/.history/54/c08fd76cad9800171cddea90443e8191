@@ -1,0 +1,21 @@
+package pe.edu.cibertec.proyemp.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="TB_PROGRAMADOR")
+public class Programador {
+	@Id
+	@GeneratedValue
+	@Column(name="PRO_ID")
+	private Integer idprogramador;
+	
+	@Column(name="PRO_NOMBRE", length=200, nullable=false)
+	private String nombre;
+	
+	
+}
