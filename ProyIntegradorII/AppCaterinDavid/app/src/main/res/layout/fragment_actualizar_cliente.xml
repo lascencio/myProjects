@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/textView_style"
+            android:paddingTop="20dp"
+            android:text="Nombres"
+            />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            style="@style/editText_style"
+            android:hint="Ingrese Nombre"/>
+
+        <TextView
+            style="@style/textView_style"
+            android:text="Apellidos"
+            />
+
+        <EditText
+            android:id="@+id/edtApellido"
+            style="@style/editText_style"
+            android:hint="Ingrese Nombre"/>
+
+        <TextView
+            style="@style/textView_style"
+            android:text="Correo Electrónico"
+            />
+
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            style="@style/editText_style"
+            android:hint="Ingrese Correo Electrónico"/>
+
+        <TextView
+            style="@style/textView_style"
+            android:text="Saldo Disponible" />
+
+        <EditText
+            android:id="@+id/edtSaldo"
+            style="@style/editText_style"
+            android:inputType="numberDecimal"
+            android:hint="Monto"/>
+
+        <TextView
+            style="@style/textView_style"
+            android:text="Cargo Empresa"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/spnCargos"
+            android:layout_gravity="center"
+           android:layout_width="150dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            style="@style/textView_style"
+            android:paddingBottom="9dp"
+            android:text="Autoriza Subsidio"
+            android:textAlignment="center" />
+
+        <RadioGroup
+            android:id="@+id/rdgAutoriza"
+            style="@style/rdgroup_style">
+
+            <RadioButton
+                android:id="@+id/rbtSi"
+                android:text="SI"
+                style="@style/rdbutton_style"/>
+
+            <RadioButton
+                android:id="@+id/rbtNo"
+                android:text="NO"
+                style="@style/rdbutton_style"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            style="@style/button_style"
+            android:text="ACTUALIZAR DATOS" />
+
+    </LinearLayout>
+</RelativeLayout>

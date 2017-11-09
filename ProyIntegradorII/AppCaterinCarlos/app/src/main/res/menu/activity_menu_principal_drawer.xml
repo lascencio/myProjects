@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/misclientes"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Mis Clientes" />
+        <item
+            android:id="@+id/comprar"
+            android:icon="@drawable/ic_my_buys"
+            android:title="Comprar Ahora" />
+        <item
+            android:id="@+id/miscompas"
+            android:icon="@drawable/ic_portafolio"
+            android:title="Mis Compras" />
+        <item
+            android:id="@+id/misdeudas"
+            android:icon="@drawable/ic_debt"
+            android:title="Mis Deudas" />
+        <item
+            android:id="@+id/miperfil"
+            android:icon="@drawable/ic_if_user_profile_103780"
+            android:title="Mi Perfil" />
+        <item
+            android:id="@+id/rproducto"
+            android:icon="@drawable/ic_my_buys"
+            android:title="Registrar Producto" />
+        <item
+            android:id="@+id/rusuario"
+            android:icon="@drawable/ic_if_user_profile_103780"
+            android:title="Registrar Usuario" />
+        <item
+            android:id="@+id/ppendientes"
+            android:icon="@drawable/ic_debt"
+            android:title="Pedidos Pendientes" />
+        <item
+            android:id="@+id/rpedidos"
+            android:icon="@drawable/ic_if_user_profile_103780"
+            android:title="Reporte de Pedidos" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

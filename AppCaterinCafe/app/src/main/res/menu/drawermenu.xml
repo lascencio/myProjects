@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/buy_now" android:title="Comprar Ahora" android:icon="@drawable/ic_my_buys"/>
+<item android:id="@+id/my_purchases" android:title="Mis Compras" android:icon="@drawable/ic_portafolio"/>
+<item android:id="@+id/my_debts" android:title="Mis Deudas" android:icon="@drawable/ic_debt"/>
+<item android:id="@+id/user_profile" android:title="Mi Perfil" android:icon="@drawable/ic_if_user_profile_103780"/>
+<item android:id="@+id/managment" android:title="Intranet" android:icon="@drawable/ic_intranet"/>
+<item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+</menu>

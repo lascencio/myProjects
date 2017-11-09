@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.cibertec.cateringdemo.appcaterincafe.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtNomApe"
+                    style="@style/editText_style"
+                    android:hint="Nombres"
+                    android:inputType="textPersonName"
+                    android:maxLength="49" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtApellido"
+                    style="@style/editText_style"
+                    android:hint="Apellidos"
+                    android:inputType="textPersonName"
+                    android:maxLength="49" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtCorreo"
+                    style="@style/editText_style"
+                    android:hint="Correo Electrónico"
+                    android:inputType="textPersonName"
+                    android:maxLength="99"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtClave"
+                    style="@style/editText_style"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:maxLength="60"/>
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+            <TextView
+                style="@style/textView_style"
+                android:text="Cargo Empresa"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/edtCargos"
+                style="@style/editText_style"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="5dp"
+                android:drawableRight="@drawable/downico2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Seleccione un Cargo" />
+
+
+            <TextView
+                style="@style/textView_style"
+                android:paddingBottom="9dp"
+                android:text="Autoriza Subsidio"
+                android:textAlignment="center" />
+
+            <RadioGroup
+                android:id="@+id/rdgAutoriza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtSi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="SI"
+                    android:textColor="#010101"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbtNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:textColor="#010101"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/button_style"
+                android:text="REGISTRAR" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

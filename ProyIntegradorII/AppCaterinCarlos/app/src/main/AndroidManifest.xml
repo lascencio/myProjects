@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.edu.cibertec.cateringdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logocatering"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logocatering"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".appcaterincafe.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".appcaterincafe.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".appcaterincafe.Login" />
+        <activity android:name=".appcaterincafe.RegisterActivity"></activity>
+    </application>
+
+</manifest>

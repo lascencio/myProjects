@@ -1,0 +1,8 @@
+package pe.edu.cibertec.proyemp.tests;
+
+public class EclipseTest {
+	
+	public static void main(String[] args) {
+		
+	}
+}

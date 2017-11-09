@@ -1,0 +1,17 @@
+package pe.edu.cibertec.proyemp.tests;
+
+import javax.persistence.EntityManager;
+
+public class EclipseTest {
+
+	private EntityManager manager;
+
+	public EclipseTest(EntityManager manager) {
+		super();
+		this.manager = manager;
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
