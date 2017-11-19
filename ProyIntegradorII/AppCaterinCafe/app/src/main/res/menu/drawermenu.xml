@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/buy_now"
+            android:icon="@drawable/ic_my_buys"
+            android:title="Comprar Ahora" />
+        <item
+            android:id="@+id/my_purchases"
+            android:icon="@drawable/ic_portafolio"
+            android:title="Mis Pedidos" />
+        <item
+            android:id="@+id/my_debts"
+            android:icon="@drawable/ic_debt"
+            android:title="Mis Deudas" />
+        <item
+            android:id="@+id/user_profile"
+            android:icon="@drawable/ic_if_user_profile_103780"
+            android:title="Mi Perfil" />
+        <item
+            android:id="@+id/my_clients"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Mis Clientes" />
+        <item
+            android:id="@+id/reg_usu"
+            android:icon="@drawable/ic_if_user_profile_103780"
+            android:title="Registrar Usuario" />
+        <item
+            android:id="@+id/reg_product"
+            android:icon="@drawable/ic_intranet"
+            android:title="Registrar Producto" />
+        <item
+            android:id="@+id/ped_pendientes"
+            android:icon="@drawable/ic_intranet"
+            android:title="Pedidos Pendientes" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>

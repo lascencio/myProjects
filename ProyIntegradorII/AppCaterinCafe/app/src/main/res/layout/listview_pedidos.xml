@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/idArt"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/idVent"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/imgDetalle"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imgDetalle"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtCant"
+        android:layout_width="70dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDesc"
+        android:layout_below="@+id/txtDesc"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtPreUni"
+        android:layout_width="105dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/txtCant"
+        android:layout_alignBottom="@+id/txtCant"
+        android:layout_toEndOf="@+id/txtCant"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:id="@+id/imgDetalle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/food_icon"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/txtPreTot"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgDetalle"
+        android:layout_alignStart="@+id/txtCant"
+        android:text="TextView"
+        android:layout_alignEnd="@+id/txtDesc" />
+
+</RelativeLayout>

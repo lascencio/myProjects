@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        style="@style/textView_style"
+        android:paddingTop="20dp"
+        android:text="Nombres"
+        />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        style="@style/editText_style"
+        android:hint="Ingrese nombre"/>
+
+    <TextView
+        style="@style/textView_style"
+        android:text="Apellidos"
+        />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        style="@style/editText_style"
+        android:hint="Ingrese apellido"/>
+
+    <TextView
+        style="@style/textView_style"
+        android:text="Correo Electrónico"
+        />
+    <EditText
+        android:id="@+id/edtCorreo"
+        style="@style/editText_style"
+        android:hint="Ingrese correo electrónico"/>
+
+    <TextView
+        style="@style/textView_style"
+        android:text="Usuario"
+        />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        style="@style/editText_style"
+        android:hint="Ingrese usuario"/>
+
+    <TextView
+        style="@style/textView_style"
+        android:text="Clave Web" />
+
+    <EditText
+        android:id="@+id/edtClaveWeb"
+        android:inputType="textPassword"
+        style="@style/editText_style"
+        android:hint="Ingrese clave web"/>
+
+    <TextView
+        style="@style/textView_style"
+        android:text="Nivel de Acceso"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/edtNiveles"
+        android:text="Seleccione Nivel"
+        style="@style/lists_style" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        style="@style/button_style"
+        android:text="REGISTRAR USUARIO" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

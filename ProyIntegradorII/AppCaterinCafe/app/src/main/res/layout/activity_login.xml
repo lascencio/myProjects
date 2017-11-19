@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.david.appcaterincafe.LoginActivity">
+
+    <LinearLayout
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cafe_logo" />
+
+        <EditText
+            style="@style/editText_style"
+            android:layout_gravity="center"
+            android:hint="Ingrese Correo Electrónico"
+            android:id="@+id/edtUser"/>
+        <EditText
+            style="@style/editText_style"
+            android:layout_gravity="center"
+            android:hint="Ingrese Contraseña"
+            android:inputType="textPassword"
+            android:id="@+id/edtPassword"/>
+        <Button
+            style="@style/button_style"
+            android:text="INGRESAR"
+            android:id="@+id/btnLogin"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:id="@+id/txtRegister"
+            android:text="Registrate aquí"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:onClick="onClick"
+           />
+    </LinearLayout>
+
+</RelativeLayout>
